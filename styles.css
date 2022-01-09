@@ -1,0 +1,490 @@
+.mobile-info-picture, .homepage3-mobile-cards {
+    display: none;
+}
+
+.Desktop{
+    width: 100%;
+}
+
+header {  
+    background-color: white;
+    width: 100%
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color:black;
+}
+
+
+li {
+    margin-right: 16px;
+    color:black;
+}
+
+a {
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.top-bar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+.top-left-bar{
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.top-left-bar-text {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.top-left-bar-text1 {
+    font-weight: bold;
+    color:rgb(74, 74, 74);
+}
+
+.top-left-bar-text2 {
+    color: rgb(155, 155, 155);
+}
+
+.top-right-bar-column{
+    display: flex;
+    flex-direction: row;
+    margin: auto 24px;
+    font-size: 20px;
+    
+}
+
+.homepage1 {
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    display:flex;
+    margin-top: 64px;
+}
+
+
+.homepage1-left{
+    width:60%;
+}
+
+.homepage1-left-content{
+    width:100%;
+    margin: 32px 24px;
+}
+
+#picture1 {
+    width:100%;
+    display: flex;
+}
+
+.homepage1-right {
+    width: 35%;
+    margin: auto;
+    color: rgb(74, 74, 74)
+}
+
+button {
+    width:100%;
+    color:white;
+    background-color: rgb(74, 74, 74);
+}
+
+.btn{
+    border-Radius: 0px;
+    cursor: pointer;
+}
+
+.homepage1-right-content{
+    width: 80%;
+    margin: 48px;
+    color:rgb(74, 74, 74);
+}
+
+.homepage1-sub {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.homepage1-title {
+    font-weight: 750;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.homepage2 {
+    width: 100%;
+    display: flex;
+    
+}
+
+.homepage2-left {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#picture2 {
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.homepage2-left-title {
+    font-weight: 900;
+    color:rgb(74, 74, 74);
+    margin-bottom: 24px;
+}
+
+.homepage2-left-sub {
+    font-size: 19px;
+    margin-bottom: 32px;
+    color: rgb(74, 74, 74);
+    font-weight: 350;
+}
+
+.homepage2-left-author {
+    font-size: 15px;
+    color: rgb(74, 74, 74);
+}
+
+.homepage2-right {
+    width: 40%;
+    margin: 16px 24px;
+    border-color: rgb(224,226,226);
+    border-style:none solid;
+    border-width:1px;
+}
+
+.info-picture {
+    width: 35%;
+    margin: 16px;
+}
+
+.homepage2-right-top {
+    display: flex;
+    border-color: rgb(224,226,226);
+    border-style:none none solid none;
+    border-width:1px;
+}
+
+.homepage2-right-middle {
+    display: flex;
+    border-color: rgb(224,226,226);
+    border-style:none none solid none;
+    border-width:1px;
+}
+
+.homepage2-right-bottom {
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(224,226,226);
+    border-style:none none solid none;
+    border-width:1px;
+}
+
+#read-more {
+    color: rgb(74,144,226);
+}
+
+#read-more:hover {
+    color: black;
+}
+
+.homepage2-right-text {
+    margin: auto;
+    width: 65%;
+}
+
+.homepage3 {
+    background-color:rgb(234, 235, 236);
+}
+
+.homepage3-title {
+    text-align: center;
+    color:rgb(74, 74, 74);
+    padding: 32px 0px 16px 0px;
+    font-weight: 750;
+}
+
+.homepage3-top {
+    display: flex;
+    flex-direction: row;
+    margin:16px 56px;
+}
+
+.homepage3-bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 56px;
+    padding-bottom: 32px;
+}
+
+.card {
+    margin: 16px;
+    width: 100%;
+}
+
+.card-img-top {
+    height: auto;
+}
+
+.card-body {
+    margin: 16px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-courses {
+    font-weight: 100;
+    margin: 8px 0px 8px 0px;
+}
+
+.card-sub {
+    margin-bottom: 24px;
+}
+
+.homepage4 {
+    background-color: rgb(243, 245, 245);
+    border-color: rgb(233,234,235);
+    border-bottom-style:solid;
+    border-width:1px;
+}
+
+.homepage4-media {
+    display: flex;
+}
+
+.homepage4-left {
+    width: 60%;
+    margin: 0px 24px;
+}
+
+.homepage4-title {
+    text-align: center;
+    color: rgb(74, 74, 74);
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 750;
+}
+
+
+.homepage4-left-bottom-sub{
+    margin-bottom: 32px;    
+}
+
+
+video {
+    width: 100%;
+}
+
+.homepage4-left-bottom-title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.homepage4-right {
+    width: 40%;
+}
+
+.homepage4-right-top {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+}
+
+.homepage4-right-bottom {
+    display: flex;
+}
+
+.homepage4-right-text {
+    margin: auto;
+    width: 65%;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(243, 245, 245);
+}
+
+.footer-left {
+    margin: 16px 24px;
+}
+
+.footer-right {
+    margin: 16px 24px;
+}
+
+.foot {
+    margin-right: 16px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 800px) {
+
+    .top-left-bar, .desktop-logo, .homepage2-left, .info-picture, .homepage3-top, 
+    .homepage3-bottom, .homepage4-left-bottom, .homepage4-right, .footer-right {
+        display: none;
+    }
+
+    .top-right-bar-column {
+        width:100%;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .top-bar {
+        justify-content: space-around;
+    }
+
+    .homepage1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .homepage1-left {
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .homepage1-left-content {
+        margin: 0px;
+    }
+
+    .homepage1-right {
+        width: 100%;
+    }
+
+    .homepage1-right-content {
+        margin: 32px 16px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    button {
+        max-width: 94%;
+        overflow: hidden;
+    }
+
+    .homepage1-title {
+        margin-bottom: 32px;
+        font-size: 50px;
+    }
+
+    .homepage1-sub {
+        margin-bottom: 24px;
+        font-size: 25px;
+    }
+
+    .homepage2 {
+        background-color: rgb(243, 245, 245);
+        border-color: rgb(233,234,235);
+        border-bottom-style:solid;
+        border-width:1px;
+    }
+
+    .homepage2-right {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .mobile-info-picture {
+        display: block;
+    }
+
+    .homepage2-right-text {
+        margin: 16px 0px 52px 16px;
+    }
+
+    .homepage2-right-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage2-right-middle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homepage2-right-bottom {
+        display: flex;
+        background-color: rgb(216, 216, 216);
+        flex-direction: column;
+    }
+
+    .homepage3 {
+        background-color: rgb(245, 244, 245);
+        border-color: rgb(233,234,235);
+        border-bottom-style:solid;
+        border-width:1px;
+        padding-bottom:32px;
+    }
+
+    .homepage3-mobile-cards {
+        background-color: rgb(216, 216, 216);
+        height: auto;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .homepage3-mobile-cards-title {
+        color:rgb(74, 74, 74);
+        padding: 20px 0px 20px 16px;
+    }
+
+    .homepage4 {
+        background-color: rgb(245, 244, 245);
+        padding-bottom: 24px;
+    }
+
+    .homepage4-left {
+        width: 100%;
+        margin: 0px;
+    }
+
+    footer {
+        background-color: rgb(245, 244, 245);
+    }
+
+    .footer-left {
+        margin:16px;
+    }
+
+
+}
