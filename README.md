@@ -1,4 +1,4 @@
 # Colmar-Academy
 
-TECHNOLOGIES — HTML, CSS, Flexbox
+TECHNOLOGIES — HTML, CSS, Flexbox<br/>
 Demo: <a href="https://justinpong.github.io/Colmar-Academy/">Link</a>
