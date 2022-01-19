@@ -1,2 +1,4 @@
 # Colmar-Academy
-<a href="https://justinpong.github.io/Colmar-Academy/">Click me</a>
+
+TECHNOLOGIES — HTML, CSS, Flexbox
+Demo: <a href="https://justinpong.github.io/Colmar-Academy/">Link</a>
