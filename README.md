@@ -1,2 +1,2 @@
 # Colmar-Academy
-<a>https://justinpong.github.io/Colmar-Academy/</a>
+<a href="https://justinpong.github.io/Colmar-Academy/">Click me</a>
